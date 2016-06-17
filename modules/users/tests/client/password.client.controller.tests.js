@@ -52,7 +52,7 @@
       }));
 
       it('should redirect logged in user to home', function() {
-        expect($location.path).toHaveBeenCalledWith('/');
+        expect($location.path).toHaveBeenCalledWith('/h');
       });
     });
 
