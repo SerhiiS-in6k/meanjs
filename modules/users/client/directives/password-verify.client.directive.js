@@ -14,6 +14,7 @@ angular.module('users')
           if (scope.passwordVerify || ngModel) {
             combined = scope.passwordVerify + '_' + ngModel;
           }
+          
           return combined;
         }, function(value) {
           if (value) {
